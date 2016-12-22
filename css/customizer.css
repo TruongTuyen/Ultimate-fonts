@@ -1,0 +1,27 @@
+[id$="font_size"],
+[id$="letter_spacing"],
+[id$="line_height"] {
+	width: 150px;
+}
+
+[id$="font_size"] input[type="number"],
+[id$="letter_spacing"] input[type="number"],
+[id$="line_height"] input[type="number"] {
+	width: 70px;
+}
+
+[id$="font_size_unit"],
+[id$="letter_spacing_unit"],
+[id$="line_height_unit"] {
+	width: 100px;
+	clear: none;
+	margin: 27px 0 0 -82px;
+}
+
+@media screen and (max-width: 782px) {
+	[id$="font_size_unit"] select,
+	[id$="letter_spacing_unit"] select,
+	[id$="line_height_unit"] select {
+		height: 40px;
+	}
+}
